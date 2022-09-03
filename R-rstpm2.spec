@@ -4,7 +4,7 @@
 #
 Name     : R-rstpm2
 Version  : 1.5.7
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/rstpm2_1.5.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rstpm2_1.5.7.tar.gz
 Summary  : Smooth Survival Models, Including Generalized Survival Models
