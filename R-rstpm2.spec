@@ -4,7 +4,7 @@
 #
 Name     : R-rstpm2
 Version  : 1.5.9
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/rstpm2_1.5.9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rstpm2_1.5.9.tar.gz
 Summary  : Smooth Survival Models, Including Generalized Survival Models
@@ -25,9 +25,6 @@ BuildRequires : R-deSolve
 BuildRequires : R-fastGHQuad
 BuildRequires : R-ggplot2
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 ### rstpm2: An R package for link-based survival models ###
@@ -50,10 +47,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673292148
+export SOURCE_DATE_EPOCH=1673293945
 
 %install
-export SOURCE_DATE_EPOCH=1673292148
+export SOURCE_DATE_EPOCH=1673293945
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
