@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : R-rstpm2
-Version  : 1.6.4
-Release  : 22
-URL      : https://cran.r-project.org/src/contrib/rstpm2_1.6.4.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/rstpm2_1.6.4.tar.gz
+Version  : 1.6.5
+Release  : 23
+URL      : https://cran.r-project.org/src/contrib/rstpm2_1.6.5.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/rstpm2_1.6.5.tar.gz
 Summary  : Smooth Survival Models, Including Generalized Survival Models
 Group    : Development/Tools
 License  : GPL-2.0 GPL-3.0
@@ -54,10 +54,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724090655
+export SOURCE_DATE_EPOCH=1724164277
 
 %install
-export SOURCE_DATE_EPOCH=1724090655
+export SOURCE_DATE_EPOCH=1724164277
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
